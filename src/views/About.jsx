@@ -73,7 +73,7 @@ const About = () => {
               full stack development enables me to create scalable, high-performance applications
             </p>
           </motion.div>
-          <motion.div className="flex flex-wrap mt-8 flex flex-wrap justify-start ">
+          <motion.div className="flex flex-wrap mt-8 flex flex-wrap justify-center ">
             {techStack.map((el, index) => (
               <motion.div
                 initial="hidden"

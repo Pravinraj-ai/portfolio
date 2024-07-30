@@ -13,9 +13,14 @@ const Navbar = () => {
       name: "Home",
       route: "/",
     },
+
     {
       name: "About",
       route: "about",
+    },
+    {
+      name: "Education",
+      route: "education",
     },
     {
       name: "Contact",
