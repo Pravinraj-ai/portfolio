@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import heroBg from "../assets/webdev.svg";
 import Typewriter from "typewriter-effect";
-import { contactLinks } from "../constants";
+import { homeLinks } from "../constants";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
 import classNames from "classnames";
@@ -56,7 +56,7 @@ const Home = () => {
             I specialize in transforming complex data into actionable insights and building scalable, high-performance applications. Let's create something amazing together!
           </p>
           <div className="flex md:justify-start">
-            {contactLinks.map((el, index) => (
+            {homeLinks.map((el, index) => (
               <a
                 key={index}
                 href={el.link}

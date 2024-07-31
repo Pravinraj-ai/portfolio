@@ -11,6 +11,13 @@ import cpp from './assets/cpp.png';
 import sql from './assets/sql.png'; 
 import sql_c from './assets/sql_intermediate.jpg';
 
+import linkedin from './assets/linkedin.png'; 
+import leetcode from './assets/leetcode.png';
+import insta from './assets/intsa.png'; 
+import hacker from './assets/hacker.png';
+import git from './assets/github.png'; 
+
+
 
 export const techStack = [
   { name: "Python", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
@@ -41,10 +48,20 @@ export const techStack = [
 ];
 
 export const contactLinks = [
-  { name: 'Instagram', url: 'https://img.icons8.com/ios-filled/50/000000/instagram-new.png', link: 'https://www.instagram.com/_.pravin.03_/' },
-  { name: 'Github', url: 'https://img.icons8.com/ios-filled/50/000000/github.png', link: 'https://github.com/Pravinraj-ai/' },
-  { name: 'LinkedIn', url: 'https://img.icons8.com/ios-filled/50/000000/linkedin.png', link: 'http://www.linkedin.com/in/pravinraj-a-k/' },
+  { name: 'Instagram', url: insta, link: 'https://www.instagram.com/_.pravin.03_/' },
+  { name: 'LinkedIn', url:linkedin , link: 'http://www.linkedin.com/in/pravinraj-a-k/' },
+  
+  
 ];
+
+export const homeLinks = [
+  { name: 'LinkedIn', url:linkedin , link: 'http://www.linkedin.com/in/pravinraj-a-k/' },
+  { name: 'Github', url: git, link: 'https://github.com/Pravinraj-ai/' },
+  { name: 'HackerRank', url:hacker , link: 'https://www.hackerrank.com/profile/perumalpravinraj' },
+  { name: 'LeetCode', url: leetcode, link: 'https://leetcode.com/u/kutty03/' },
+  
+];
+
 
 export const degrees = [
   {
@@ -54,7 +71,7 @@ export const degrees = [
     duration: "2020 - 2024"
   },
   {
-    collegeLogo: vivekamlogo, // replace with actual path
+    collegeLogo: vivekamlogo,
     degree: "12th Standard - AISSCE (Higher Secondary)",
     university: "Vivekam CBSE School, Coimbatore",
     duration: "2019-2020"
@@ -66,25 +83,25 @@ export const certifications = [
     name: "Machine Learning Internship",
     issuer: "Corizo",
     date: "Issued Oct 2022",
-    logo: interncorizo // replace with actual path
+    logo: interncorizo 
   },
   {
     name: "SQL (Intermidate)",
     issuer: "Hackerrank",
     date: "Issued Jul 2024",
-    logo: sql_c // replace with actual path
+    logo: sql_c 
   },
   {
     name: "Web Development",
     issuer: "Coursera",
     date: "Issued Aug 2023",
-    logo: ibmhtml // replace with actual path
+    logo: ibmhtml 
   },
   {
     name: "Git & Github Essentials",
     issuer: "Coursera",
     date: "Issued Aug 2023",
-    logo: ibmgit // replace with actual path
+    logo: ibmgit 
   }
 ];
 

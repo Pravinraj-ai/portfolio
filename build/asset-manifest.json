@@ -1,19 +1,31 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/portfolio/static/js/main.56fb27fe.js",
+    "main.js": "/portfolio/static/js/main.da3af610.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/sql_intermediate.jpg": "/portfolio/static/media/sql_intermediate.e822087edf73f490146a.jpg",
+    "static/media/ibm_html.jpg": "/portfolio/static/media/ibm_html.a895bf0fa65e82dca084.jpg",
+    "static/media/ibm_git.jpg": "/portfolio/static/media/ibm_git.72ab4f011d708860bef4.jpg",
+    "static/media/corizointern.png": "/portfolio/static/media/corizointern.87b697a594e8afed9116.png",
+    "static/media/vivekam_logo.png": "/portfolio/static/media/vivekam_logo.08c472ab0bcff6b0cd3d.png",
     "static/media/pravin.jpg": "/portfolio/static/media/pravin.97428f5616425041dbcb.jpg",
+    "static/media/pb.png": "/portfolio/static/media/pb.0c121388ccd3c97d0f28.png",
+    "static/media/pythin.png": "/portfolio/static/media/pythin.02ac61b2831abb1c7c38.png",
+    "static/media/amritalogo.png": "/portfolio/static/media/amritalogo.ec442e4b7016e0560ef9.png",
     "static/media/webdev.svg": "/portfolio/static/media/webdev.4d72dbba32efee3890cef9bcacce7aa7.svg",
+    "static/media/cpp.png": "/portfolio/static/media/cpp.600099592cbbf3741f04.png",
+    "static/media/java.png": "/portfolio/static/media/java.54cccfa078f436856668.png",
+    "static/media/sql.png": "/portfolio/static/media/sql.3141241ee2dfaece6f7c.png",
     "static/media/cloudBg.png": "/portfolio/static/media/cloudBg.f28b5c6961fd82be839c.png",
     "static/media/cloudDark.png": "/portfolio/static/media/cloudDark.51edaa54cabe7b964ae9.png",
+    "static/media/aws.png": "/portfolio/static/media/aws.895ac29b2bfda29a9270.png",
     "index.html": "/portfolio/index.html",
     "main.e6c13ad2.css.map": "/portfolio/static/css/main.e6c13ad2.css.map",
-    "main.56fb27fe.js.map": "/portfolio/static/js/main.56fb27fe.js.map",
+    "main.da3af610.js.map": "/portfolio/static/js/main.da3af610.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.56fb27fe.js"
+    "static/js/main.da3af610.js"
   ]
 }

@@ -18,8 +18,8 @@ const Navbar = () => {
       name: "About",
       route: "about",
     },
-    {
-      name: "Education",
+        {
+      name: "Qualification",
       route: "education",
     },
     {

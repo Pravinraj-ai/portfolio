@@ -20,11 +20,11 @@ const Education = () => {
         <h2
           className="text-5xl font-bold px-4 md:px-0 text-center text-blue-500"
         >
-          Education & Qualification
+          Qualification
         </h2>
         <div className="mt-16">
           <div className="mt-16">
-            <h4 className="text-3xl font-semibold text-blue-500">Degrees Received</h4>
+            <h4 className="text-3xl font-semibold text-blue-500">Education</h4>
             <div className="mt-8">
               {degrees.map((degree, index) => (
                 <motion.div
@@ -60,7 +60,7 @@ const Education = () => {
             </div>
           </div>
           <div className="mt-16">
-            <h4 className="text-3xl font-semibold text-blue-500">Certifications</h4>
+            <h4 className="text-3xl font-semibold text-blue-500">Certifications & Internships</h4>
             <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
               {certifications.map((cert, index) => (
                 <motion.div
