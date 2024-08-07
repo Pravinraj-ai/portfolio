@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/portfolio/static/js/main.733c8e4a.js",
+    "main.js": "/portfolio/static/js/main.69e0d4f4.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/sql_intermediate.jpg": "/portfolio/static/media/sql_intermediate.e822087edf73f490146a.jpg",
     "static/media/ibm_html.jpg": "/portfolio/static/media/ibm_html.a895bf0fa65e82dca084.jpg",
     "static/media/ibm_git.jpg": "/portfolio/static/media/ibm_git.72ab4f011d708860bef4.jpg",
+    "static/media/software_certification.jpg": "/portfolio/static/media/software_certification.1f753a9f83601c703d52.jpg",
     "static/media/corizointern.png": "/portfolio/static/media/corizointern.87b697a594e8afed9116.png",
     "static/media/vivekam_logo.png": "/portfolio/static/media/vivekam_logo.08c472ab0bcff6b0cd3d.png",
     "static/media/pravin.jpg": "/portfolio/static/media/pravin.97428f5616425041dbcb.jpg",
@@ -21,11 +22,11 @@
     "static/media/aws.png": "/portfolio/static/media/aws.895ac29b2bfda29a9270.png",
     "index.html": "/portfolio/index.html",
     "main.e6c13ad2.css.map": "/portfolio/static/css/main.e6c13ad2.css.map",
-    "main.733c8e4a.js.map": "/portfolio/static/js/main.733c8e4a.js.map",
+    "main.69e0d4f4.js.map": "/portfolio/static/js/main.69e0d4f4.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.733c8e4a.js"
+    "static/js/main.69e0d4f4.js"
   ]
 }
