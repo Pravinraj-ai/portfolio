@@ -9,7 +9,7 @@ import cloud from "../assets/cloudBg.png";
 import cloudDark from "../assets/cloudDark.png";
 
 const typewriterOptions = {
-  strings: ["Data Scientist", "Cloud Engineer", "Full Stack Developer"],
+  strings: ["Cloud Engineer","ML-Ops Engineer","Full-Stack Developer"],
   autoStart: true,
   loop: true,
   delay: 100,
@@ -51,9 +51,8 @@ const Home = () => {
               "text-white": !darkMode,
             })}
           >
-            I love to play with data &#128521;
+            I specialize in AI, MLOps, and Cloud, leveraging statistics and probability to extract insights from data.;
             <br></br>
-            I specialize in transforming complex data into actionable insights and building scalable, high-performance applications. Let's create something amazing together!
           </p>
           <div className="flex md:justify-start">
             {homeLinks.map((el, index) => (

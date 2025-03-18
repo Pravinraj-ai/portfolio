@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { techStack } from "../constants";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
-import pravinImage from "../assets/pravin.jpg";
+import pravinImage from "../assets/pravin1.jpg";
 
 const About = () => {
   const theme = useContext(ThemeContext);
@@ -30,19 +30,19 @@ const About = () => {
                     : "mt-4 text-xl text-justify text-white"
                 }
               >
-                I’m an aspiring Artificial Intelligence Engineer with a
-                profound passion for data science and a comprehensive
-                skill set in cloud computing and full stack development.
-                My academic journey has involved developing advanced AI
-                models and working on projects that integrate both software
-                and hardware solutions. I've gained experience in designing
-                scalable cloud architectures and building end-to-end applications,
-                enhancing my ability to address complex challenges.
-                These experiences have honed my problem-solving skills
-                and fueled my enthusiasm for innovative technology.
-                With a commitment to continuous learning and a drive
-                for excellence, I am eager to contribute to dynamic
-                teams and make a meaningful impact.
+                I am an aspiring Artificial Intelligence Engineer 
+                with expertise in MLOps, Cloud Computing, and 
+                Full-Stack Development. My experience spans 
+                across building scalable cloud architectures, 
+                implementing CI/CD pipelines, and automating 
+                infrastructure to optimize workflows. I have worked 
+                on AI-driven solutions, integrating Flask, Docker, 
+                and AWS in real-world applications. My hands-on experience 
+                with DevOps practices, containerization, and cloud deployments 
+                has strengthened my ability to deliver efficient and 
+                scalable solutions. Passionate about continuous learning, 
+                I am eager to contribute to dynamic teams and drive 
+                innovation through technology.
               </p>
             </motion.div>
             <motion.div className="md:w-1/5 order-1 md:order-2 flex justify-center items-center mt-8 md:mt-0">
