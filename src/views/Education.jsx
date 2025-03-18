@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { degrees, certifications, badges } from "../constants";
+import { workexp, degrees, certifications, badges } from "../constants";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
 
@@ -9,6 +9,8 @@ const Education = () => {
     duration: 0.3,
     ease: "easeInOut",
   };
+
+
 
   return (
     <div
@@ -23,6 +25,42 @@ const Education = () => {
           Qualification
         </h2>
         <div className="mt-16">
+          <div className="mt-16">
+            <h4 className="text-3xl font-semibold text-blue-500">Work Experience</h4>
+            <div className="mt-8">
+              {workexp.map((workexp, index) => (
+                <motion.div
+                initial="hidden"
+                whileInView={"visible"}
+                variants={{
+                  visible: {
+                    y: 0,
+                    opacity: 1,
+                    transition: {
+                      type: "spring",
+                    },
+                  },
+                  hidden: { opacity: 1, y: 80 },
+                }}
+                  transition={transition}
+                  className={
+                    theme.state.darkMode
+                      ? "w-full max-w-4xl p-4 bg-gray-100 rounded-lg flex items-center mx-auto mb-8"
+                      : "w-full max-w-4xl p-4 bg-gray-800 rounded-lg flex items-center mx-auto mb-8"
+                  }
+                >
+                  <div className="flex-none w-20 h-20 mr-4">
+                    <img src={workexp.tLogo} alt={workexp.company} className="w-full h-full object-contain" />
+                  </div>
+                  <div className="flex-grow">
+                    <h4 className={theme.state.darkMode ? "text-xl font-bold text-black" : "text-xl font-bold text-white"}>{workexp.role}</h4>
+                    <p className={theme.state.darkMode ? "text-lg mt-2 text-black" : "text-lg mt-2 text-white"}>{workexp.company}</p>
+                    <p className={theme.state.darkMode ? "text-lg mt-2 text-black" : "text-lg mt-2 text-white"}>{workexp.duration}</p>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          </div> 
           <div className="mt-16">
             <h4 className="text-3xl font-semibold text-blue-500">Education</h4>
             <div className="mt-8">
