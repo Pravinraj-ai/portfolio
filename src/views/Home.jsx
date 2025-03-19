@@ -9,7 +9,7 @@ import cloud from "../assets/cloudBg.png";
 import cloudDark from "../assets/cloudDark.png";
 
 const typewriterOptions = {
-  strings: ["Cloud Engineer","ML-Ops Engineer","Full-Stack Developer"],
+  strings: ["Cloud Engineer","ML-Ops Engineer","Software Developer"],
   autoStart: true,
   loop: true,
   delay: 100,
@@ -51,7 +51,7 @@ const Home = () => {
               "text-white": !darkMode,
             })}
           >
-            I specialize in AI, MLOps, and Cloud, leveraging statistics and probability to extract insights from data.;
+            I specialize in AI, MLOps, and Cloud, leveraging statistics and probability to extract insights from data ;
             <br></br>
           </p>
           <div className="flex md:justify-start">
