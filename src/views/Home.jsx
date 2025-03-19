@@ -96,7 +96,7 @@ const Home = () => {
       {showResume && (
         <div className="fixed inset-0 bg-gray-900 bg-opacity-75 flex items-center justify-center z-50">
           <iframe
-            src="https://drive.google.com/file/d/12e2wVdC9AP_mynt4xPHn6lj0IKCdBipC/view?usp=drivesdk"
+            src="https://drive.google.com/file/d/1XA69IGz-v0ROOCJGqddAde4tAik5QLjM/view?usp=drivesdk"
             width="80%"
             height="80%"
             frameBorder="0"
