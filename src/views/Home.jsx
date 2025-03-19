@@ -96,11 +96,12 @@ const Home = () => {
       {showResume && (
         <div className="fixed inset-0 bg-gray-900 bg-opacity-75 flex items-center justify-center z-50">
           <iframe
-            src="https://drive.google.com/file/d/1XA69IGz-v0ROOCJGqddAde4tAik5QLjM/view?usp=drivesdk"
+            src="https://drive.google.com/file/d/1XA69IGz-v0ROOCJGqddAde4tAik5QLjM/preview"
             width="80%"
             height="80%"
             frameBorder="0"
             title="Resume"
+             
           ></iframe>
           <button
             onClick={() => setShowResume(false)}
